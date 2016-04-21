@@ -110,4 +110,4 @@ def install_supervisor():
 	#run('echo_supervisord_conf > /etc/supervisord.conf')
 	if not exists('/logs'):
 		run('mkdir /logs')
-	put('supervisord.conf', '/etc/supervisord.conf')
+	put('supervisor/supervisord.conf', '/etc/supervisord.conf')
