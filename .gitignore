@@ -1,0 +1,8 @@
+.idea/
+logs/
+build/
+dist/
+
+*.py[co]
+*.log
+/fabfile_hosts.py
